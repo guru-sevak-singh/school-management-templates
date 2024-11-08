@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Meta, title, CSS, favicons, etc. -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/favicon.ico" type="image/ico" />
+
+	<title>School Management</title>
+
+	<!-- Bootstrap -->
+	<link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Custom Theme Style -->
+	<link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+	<div class="container body" id="add_subject">
+		<div class="main_container">
+			<div class="col-md-3 left_col">
+				<div class="left_col scroll-view">
+					<div class="navbar nav_title" style="border: 0;">
+						<a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>School
+								Managment</span></a>
+					</div>
+					<div class="clearfix"></div>
+					<!-- menu profile quick info -->
+					<div class="profile clearfix">
+						<div class="profile_pic">
+							<img src="images/img.jpg" alt="..." class="img-circle profile_img">
+						</div>
+						<div class="profile_info">
+							<span>Welcome,</span>
+							<h2>Jimmy Arora</h2>
+						</div>
+					</div>
+					<!-- /menu profile quick info -->
+
+					<br />
+
+					<!-- sidebar menu -->
+					<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+						<div class="menu_section">
+							<h3>General</h3>
+							<ul class="nav side-menu">
+								<li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+									<ul class="nav child_menu">
+										<!-- <li><a href="index.html">Dashboard</a></li>
+										<li><a href="index2.html">Dashboard2</a></li>
+										<li><a href="index3.html">Dashboard3</a></li> -->
+									</ul>
+								</li>
+								<li><a><i class="fa fa-edit"></i> Add Forms <span class="fa fa-chevron-down"></span></a>
+									<ul class="nav child_menu">
+										<li><a href="add_student.html">Add Student</a></li>
+										<li><a href="add_teacher.html">Add Teacher</a></li>
+                                        <li><a href="search_student.html">Search Student</a></li>
+                                        <li><a href="add_student.html">Add Subject</a></li>
+									</ul>
+								</li>
+								<li><a href="calender.html"><i class="fa fa-calendar-o"></i> Calender </a></li>
+
+
+							</ul>
+						</div>
+
+
+					</div>
+					<!-- /sidebar menu -->
+				</div>
+			</div>
+
+			<!-- top navigation -->
+			<div class="top_nav">
+				<div class="nav_menu">
+					<div class="nav toggle">
+						<a id="menu_toggle"><i class="fa fa-bars"></i></a>
+					</div>
+					<nav class="nav navbar-nav">
+						<ul class=" navbar-right">
+							<li class="nav-item dropdown open" style="padding-left: 15px;">
+								<a class="user-profile dropdown-toggle" aria-haspopup="true"
+									id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+									<img src="images/img.jpg" alt="">Jimmy Arora
+								</a>
+								<div class="dropdown-menu dropdown-usermenu pull-right"
+									aria-labelledby="navbarDropdown">
+									<a class="dropdown-item"> Profile</a>
+									<a class="dropdown-item">
+										<span class="badge bg-red pull-right">50%</span>
+										<span>Settings</span>
+									</a>
+									<a class="dropdown-item">Help</a>
+									<a class="dropdown-item" href="login.html"><i class="fa fa-sign-out pull-right"></i>
+										Log Out</a>
+								</div>
+							</li>
+
+							<li role="presentation" class="nav-item dropdown open">
+								<a class="dropdown-toggle info-number" id="navbarDropdown1"
+									data-toggle="dropdown" aria-expanded="false">
+									<i class="fa fa-envelope-o"></i>
+									<span class="badge bg-green">6</span>
+								</a>
+								<ul class="dropdown-menu list-unstyled msg_list" role="menu"
+									aria-labelledby="navbarDropdown1">
+									<li class="nav-item">
+										<a class="dropdown-item">
+											<span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+											<span>
+												<span>John Smith</span>
+												<span class="time">3 mins ago</span>
+											</span>
+											<span class="message">
+												Film festivals used to be do-or-die moments for movie makers. They were
+												where...
+											</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="dropdown-item">
+											<span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+											<span>
+												<span>John Smith</span>
+												<span class="time">3 mins ago</span>
+											</span>
+											<span class="message">
+												Film festivals used to be do-or-die moments for movie makers. They were
+												where...
+											</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="dropdown-item">
+											<span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+											<span>
+												<span>John Smith</span>
+												<span class="time">3 mins ago</span>
+											</span>
+											<span class="message">
+												Film festivals used to be do-or-die moments for movie makers. They were
+												where...
+											</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="dropdown-item">
+											<span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+											<span>
+												<span>John Smith</span>
+												<span class="time">3 mins ago</span>
+											</span>
+											<span class="message">
+												Film festivals used to be do-or-die moments for movie makers. They were
+												where...
+											</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<div class="text-center">
+											<a class="dropdown-item">
+												<strong>See All Alerts</strong>
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- /top navigation -->
+
+			<!-- page content -->
+			<div class="right_col" role="main">
+				<div class="">
+					<div class="page-title">
+						<div class="title_left">
+							<h3>Search Student</h3>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="x_content">
+								<br />
+								<form id="demo-form2" data-parsley-validate
+									class="form-horizontal form-label-left input_mask">
+									<div class="row">
+                                        	<div class="col-md-4 col-sm-4 form-group has-feedback">
+											<div class="item form-group">
+												<label class="col-form-label col-md-5 col-sm-5 label-align"
+													for="standared">Standard<span class="required">*</span>
+												</label>
+												<div class="col-md-7 col-sm-7">
+													<select class="form-control" required id="standared" name="standared" >
+														<option>Select Class</option>
+														<option>Ist</option>
+														<option>2nd</option>
+														<option>3rd</option>
+														<option>4th</option>
+														</select>
+													
+												</div>
+											</div>
+										</div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="item form-group">
+                                                <div class="col-md-12 col-sm-12">
+                                                    <button type="button" class="btn btn-success"><i class="fa fa-search mr-2" aria-hidden="true"></i>Search</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+									</div>
+
+									<div class="ln_solid"></div>
+                                    
+								</form>
+
+                               <!-- Search Student table start -->
+                               <div class="table-responsive">
+                                <table class="table table-striped jambo_table bulk_action">
+                                  <thead>
+                                    <tr class="headings">
+                                      <th class="column-title">Id </th>
+                                      <th class="column-title">Admission Number</th>
+                                      <th class="column-title">Name </th>
+                                      <th class="column-title">Father Name </th>
+                                      <th class="column-title">Mother Name</th>
+                                      <th class="column-title">Phone</th>
+                                      <th class="column-title">Class</th>
+                                      <th class="column-title no-link last"><span class="nobr">Action</span>
+                                      </th>
+                                    </tr>
+                                  </thead>
+          
+                                  <tbody>
+                                    <tr class="pointer">
+                                      <td>1</td>
+                                      <td>1 </td>
+                                      <td>Kanika </td>
+                                      <td>Satish Madaan</td>
+                                      <td>Bimla madaan</td>
+                                      <td>9034320186</td>
+                                      <td>1st</td>
+                                      <td class=" last"><a href="student_detail.html"><i class="fa fa-eye success mr-2"></i>View</a>
+                                      </td>
+                                    </tr>
+                                    <tr class="pointer">
+                                        <td>1</td>
+                                        <td>1 </td>
+                                        <td>Jatin </td>
+                                        <td>Madan Lal Arora</td>
+                                        <td>Sudesh Arora</td>
+                                        <td>9034320186</td>
+                                        <td>1st</td>
+                                        <td class=" last"><a href="student_detail.html"><i class="fa fa-eye success mr-2"></i>View</a>
+                                        </td>
+                                      </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                               <!-- Search Student table end -->
+							</div>
+
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+			<!-- /page content -->
+
+			<!-- footer content -->
+			<footer>
+				<div class="pull-right">
+					School Management Softwares | All Rights Reserved 
+				</div>
+				<div class="clearfix"></div>
+			</footer>
+			<!-- /footer content -->
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="vendors/jquery/dist/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+	<!-- Custom Theme Scripts -->
+	<script src="js/custom.js"></script>
+
+
+</body>
+
+</html>

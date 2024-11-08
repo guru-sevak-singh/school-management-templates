@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/ico" />
+
+    <title>School Management</title>
+
+    <!-- Bootstrap -->
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+    <div class="login" id="login">
+        <div class="wrapper wrapper-login pt-4">
+            <div class="container container-login animated fadeIn mt-5">
+
+                <h3 class="text-center">Sign In</h3>
+                <div class="login-form">
+                                    <!-- error message start-->
+                <div class="alert alert alert-danger alert-dismissible fade show my-3" role="alert">
+                    Please fill required fields
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- error message end-->
+                    <div class="form-group form-floating-label">
+                        <input id="username" name="username" type="text" class="form-control input-border-bottom"
+                            required>
+                        <label for="username" class="placeholder">Username</label>
+                    </div>
+                    <div class="form-group form-floating-label">
+                        <input id="password" name="password" type="password" class="form-control input-border-bottom"
+                            required>
+                        <label for="password" class="placeholder">Password</label>
+                        <div class="show-password">
+                            <i class="flaticon-interface"></i>
+                        </div>
+                    </div>
+                    <div class="row form-sub m-0">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="rememberme">
+                            <label class="custom-control-label" for="rememberme">Remember Me</label>
+                        </div>
+
+                        <a href="#" class="link float-right">Forget Password ?</a>
+                    </div>
+                    <div class="form-action mb-3">
+                        <a href="#" class="btn btn-success btn-rounded btn-login">Sign In</a>
+                    </div>
+                    <div class="login-account">
+                        <span class="msg">Don't have an account yet ?</span>
+                        <a href="#" id="show-signup" class="link">Sign Up</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Custom Theme Scripts -->
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
